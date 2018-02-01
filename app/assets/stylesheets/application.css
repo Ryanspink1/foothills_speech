@@ -13,3 +13,104 @@
  *= require_tree .
  *= require_self
  */
+
+nav{
+  /*height: 10vh;*/
+  box-shadow: 0px 0px 5px black;
+}
+/*.navbar-collapse {
+    padding-top:30vh;
+    height: 100vh;
+    font-size:200%;
+    text-align:center;
+}*/
+
+
+ul{
+line-height:400%;
+}
+li{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:150%
+}
+#brand-image{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#brand-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 200%;
+}
+
+.jumbotron{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:300%;
+  background-color: #4ABDAC;
+  color: #4a5bbd;
+   /*text-shadow: 2px 2px 4px black;*/
+
+
+}
+
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+#home-picture-row{
+  /*margin-top:10vh;*/
+  height:100vh;
+  margin-right:0px;
+}
+
+#home-banner{
+  padding-top:40vh;
+  height:100vh;
+}
+
+#about-us-row{
+  /*background-color: #bd634a;*/
+  font-family: 'Raleway', sans-serif;
+}
+
+#about-us-column{
+  /*max-height:90vh*/
+}
+
+#about-us-header{
+  height:10vh;
+  text-align:center;
+  margin-top:5vh;
+  /*font-family: 'Artifika', serif;*/
+  font-size: 300%;
+    /*background-color: #bd634a;*/
+
+}
+
+#about-us-body{
+  margin-top:2vh;
+  height:inherit;
+  margin-left:5vw;
+  margin-right:5vw;
+  background-color:white;
+  /*background-color: #bd634a;*/
+
+
+}
+
+#about-us-body-text{
+  font-size:200%;
+  text-align:center;
+
+}
