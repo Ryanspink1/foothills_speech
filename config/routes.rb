@@ -4,5 +4,7 @@ Rails.application.routes.draw do
 
   root to: 'home#show', as: "/"
 
-  
+  resources :contact, only: [:new]
+
+
 end

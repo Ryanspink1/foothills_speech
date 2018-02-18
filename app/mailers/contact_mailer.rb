@@ -1,7 +1,7 @@
-class ContactMailer < ActionMailer::Base
-  def contact_us(message)
-    @message = message
-    @url  = 'http://example.com/login'
-    mail(to: @user.email, subject: 'Welcome to My Awesome Site')
+class ContactMailer < ApplicationMailer
+
+  def contact_email(email_params)
+    @email_params = email_params
+    mail(to: 'ryan.spink.1@gmail.com', subject: 'Website Contact Email')
   end
 end
