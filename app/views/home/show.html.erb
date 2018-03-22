@@ -1,0 +1,23 @@
+<%= render 'navbar/navbar' %>
+<div class="row" id="home-picture-row">
+  <div class="col-12" style="padding-right:0px;">
+    <a class="anchor" id="home"></a>
+    <div class="jumbotron jumbotron-fluid" id="home-banner" style="padding-right:0px;">
+      <div id="jumbotron-text" style="width:100%;">
+        <p>SPEECH, LANGUAGE AND VOICE THERAPY ACROSS THE LIFESPAN</p>
+        <a class="btn btn-primary btn-lg" href="#about-us" role="button">Learn more</a>
+      </div>
+      <div class="downArrow bounce">
+        <i class="fas fa-chevron-down fa-sm"></i>
+      </div>
+    </div>
+    <%= render 'home/mid_section' %>
+  </div>
+</div>
+<%= render 'home/about_us_row' %>
+<%= render 'home/therapy_row' %>
+<%= render 'home/faq_row' %>
+<%= render 'home/testimonials_row' %>
+<%= render 'home/contact_row' %>
+<%= render 'footer/footer' %>
+<%= render 'home/overlay' %>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h2>New Client Contact</h2>
+    <p>
+      Name: <%=@email_params[:name]%><br>
+      Phone: <%= @email_params[:phone] %><br>
+      Email: <%= @email_params[:email] %><br>
+      Therapy Type: <%= @email_params[:therapy_type] %><br>
+      Notes: <%= @email_params[:message] %>
+    </p>
+  </body>
+</html>
