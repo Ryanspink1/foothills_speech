@@ -15,9 +15,9 @@
  */
 
  body {
-  position: relative;
-  margin:0px;
-  padding:0px;
+  /*position: relative;*/
+  /*margin:0px;
+  padding:0px;*/
 }
 
 nav{
@@ -28,12 +28,33 @@ nav{
   /*align:right;*/
   font-size:100%;
   text-align:center;
+  /*display:inline-block;*/
+}
+
+#foot{
+  background-color: #0F4FA1;
+  color:white;
+  padding-bottom:1%;
+  padding-top:1%;
+
+  padding-right:0px;
+  margin-right:0px;
+  width:103vw;
+}
+
+#facebook-link{
+  padding-left:2.5%;
+  padding-right:2.5%;
+  padding-top:.5%;
+  padding-bottom:.5%;
+  border-radius: 7px 7px 7px 7px;
+  background-color:#0F2971;
+  width:auto;
   display:inline-block;
 }
 
-footer{
-  background-color: #0F4FA1;
-  color:white;
+#facebook-link:hover{
+  cursor: pointer;
 }
 
 a.anchor {
@@ -55,8 +76,8 @@ li{
 
 .mid-section{
   background-color:#0F4FA1;
-  height:.5vh;
-  width:100%;
+  height:1px;
+  width:102vw;
   margin-right:0px;
   padding-right:0px;
 }
@@ -69,30 +90,14 @@ li{
 
 #brand-text{
   font-family: 'Raleway', sans-serif;
-  font-size: 200%;
+  font-size: 180%;
 }
 
-.row.no-gutters {
-  width:100%;
-  margin-right: 0;
-  margin-left: 0;
-
-  & > [class^="col-"],
-  & > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-#home-picture-row{
-  /*background-color: #4ABDAC;*/
-}
 
 #home-banner{
   padding-top:28%;
   padding-bottom:0px;
-  padding-right:0px;
-  /*background-color: #4ABDAC;*/
+  width:100%;
 }
 
 #jumbotron-text{
@@ -100,52 +105,40 @@ margin-bottom:1%;
 }
 
 .jumbotron{
+  margin-right:0px;
+  padding-right:0px;
   margin-top:3%;
   margin-bottom:0px;
-  margin-right:0px;
   height:inherit;
-  /*opacity:.6;*/
   text-align:center;
   font-family: 'Raleway', sans-serif;
   font-size:300%;
-  /*background-color: #4ABDAC;*/
-  /*color: #4a5bbd;*/
-  /*color:black;*/
-  /*color:#4ABDAC;*/
   color:white;
   text-shadow: 1px 1px 8px black;
   text-outline: 3px 2px black;
-  width:100%;
   background-image: url("https://s3-us-west-2.amazonaws.com/foothills-speech/pictures/IMG_4964.jpg");
   background-size: cover;
 
 }
 
 #about-us-row{
-  /*background: linear-gradient(to right,#47B99C,white);*/
-  /*background-color:#E8EAEC;*/
   background: radial-gradient(white,#E8EAEC);
-
-  /*background-color: #47B99C;*/
-  /*background-color: #bd634a;*/
-  /*margin-top:100vh;*/
   font-family: 'Raleway', sans-serif;
 }
 
 #about-us-column{
   padding-right:0px;
   margin-right:0px;
+  margin-bottom:2%;
 }
 
 #about-us-header{
-  /*height:10vh;*/
   text-align:left;
   margin-top:2vh;
   padding-left:5%;
-  /*font-family: 'Artifika', serif;*/
   font-size: 300%;
-    /*background-color: #bd634a;*/
-
+  padding-top:2%;
+  padding-bottom:2%;
 }
 
 #about-us-header-text{
@@ -155,40 +148,24 @@ margin-bottom:1%;
 
 }
 
-#about-us-carousel{
-}
-
-.carousel-inner{
-  /*height:20%;*/
-  /*width:20%;*/
-}
-
-#carouselExampleSlidesOnly{
-  width:30%;
-  margin-bottom:2%;
-  /*padding-left:1%;*/
+#about-us-photo{
+  /*text-align: center;*/
   border-left: 5px solid #FFB338;
+  margin-top:2%;
+  margin-bottom: 4%;
 }
-.carousel-item{
-  /*height:20%;
-  width:20%;*/
-}
-
 #about-us-body{
-  margin-top:2vh;
   height:inherit;
   margin-left:5%;
   margin-right:5%;
-  /*background-color:white;*/
-  /*background-color: #bd634a;*/
   margin-bottom:5vh;
-
-
+  padding-left:2%;
+  padding-right:2%;
+  border-left: 2px solid #FFB338;
 }
 
 #about-us-body-text{
   font-size:175%;
-
 }
 
 #therapy-header{
@@ -198,10 +175,11 @@ margin-bottom:1%;
   margin-top:2vh;
   font-size: 300%;
   margin-bottom:2vh;
-  color:white;
+  color:black;
   font-family: 'Raleway', sans-serif;
+  padding-top:2%;
+  padding-bottom:2%;
 
-  /*text-shadow: 1px 1px 8px black;*/
 }
 
 #therapy-header-text{
@@ -226,13 +204,15 @@ margin-bottom:1%;
   border-style: none;
   /*height:30vh !important;*/
   height:15rem;
+
 }
 
 .card-text{
   border-left: 2px solid red;
   padding-left:2%;
   margin-left:2%;
-  /*height:6rem;*/
+  height:6rem;
+  overflow:scroll;
 }
 
 .card{
@@ -242,24 +222,168 @@ margin-bottom:1%;
   width:30%;
   display:inline-block;
   margin-left:3%;
+  box-shadow: 3px 3px 7px #848f94;
   /*height:inherit;*/
 }
 
+.learn-more-button{
+  border-radius: 2px 2px 2px 2px;
+  background:grey;
+  width:7rem;
+  text-align:center;
+  cursor:pointer;
+}
+.learn-more-button:hover{
+  color:black;
+  font-weight:bold;
+  background-color:red;
+}
+
 #therapy-row{
-  /*background-color:#25A887;*/
-  /*background: linear-gradient(to right,black,grey);*/
-  /*background: radial-gradient(white,#25A887);*/
-  background: radial-gradient(grey,black);
-  /*background:black;*/
-  /*background-color:#4ABDAC;*/
+  background: radial-gradient(white,#E8EAEC);
+  padding-bottom:4%;
+}
+
+#faq-row{
+  background: radial-gradient(white,#E8EAEC);
+  font-family: 'Raleway', sans-serif;
+  padding-top:2%;
+}
+#faq-column{
+  padding-right:0px;
+  margin-right:0px;
+  margin-bottom:4%;
+}
+
+#faq-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+  margin-bottom:2vh;
   padding-bottom:2%;
+}
+#faq-header-text{
+  border-left: 2px solid #7F2DAC;
+  padding-left:1%;
+}
+
+.faq-dropdown{
+  width:55%;
+  margin: 0 auto;
+  margin-bottom:1%;
+}
+
+.faq-dropdown-header{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  font-size: 115%;
+  padding-left:2%;
+  padding-right:2%;
+  background-color:#0F4FA1;
+  color:white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.faq-dropdown-header:hover{
+  box-shadow: 3px 3px 7px #848f94;
+  font-weight:bold;
+  background-color:white;
+  color:#0F4FA1;
+}
+
+.faq-dropdown-header.active{
+  border-radius: 7px 7px 0px 0px;
+  border-bottom:0px;
+}
+
+.faq-dropdown-body{
+  /*text-align: center;*/
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:3%;
+  padding-right:2%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 0px 7px 7px;
+  background-color:white;
+}
+
+.faq-dropdown-body.one{
+  text-align: center;
+}
+
+.faq-dropdown-body.six{
+  text-align: center;
+}
+
+.faq-dropdown-body.five{
+  text-align: center;
+}
+
+#testimonials-row{
+  background: radial-gradient(white,#E8EAEC);
+  font-family: 'Raleway', sans-serif;
+}
+
+#testimonials-column{
+  padding-right:0px;
+  margin-right:0px;
+  margin-bottom:2%;
+}
+
+#testimonials-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+#testimonials-header-text{
+  border-left: 2px solid #47B99C;
+  padding-left:1%;
+}
+
+#testimonials-text-row{
+  padding-left:9%;
+  padding-right:3%;
+}
+
+.testimonial-text{
+  padding-left:2%;
+  border-left: 2px solid #47B99C;
+
+}
+
+#testimonials-body{
+  height:inherit;
+  /*margin-left:5%;*/
+  margin-right:5%;
+  margin-bottom:5vh;
+  /*padding-left:2%;
+  padding-right:2%;
+  border-left: 2px solid #FFB338;*/
+}
+
+#testimonials-body-text{
+  font-size:175%;
 }
 
 #contact-row{
   font-family: 'Raleway', sans-serif;
-  /*background-color: #25A887;*/
-  /*background: radial-gradient(#25A887, #006249)*/
   background: radial-gradient(white,#E8EAEC);
+  /*padding-right:0vw;*/
+  padding-top:2%;
+  padding-bottom:4%;
+}
+
+.row{
+  width:103vw;
 }
 
 .contact-form-input{
@@ -271,12 +395,24 @@ margin-bottom:1%;
   font-size:120%;
 }
 
-#contact-body{
-left:50%;
-right:50%;
-width:40%;
-margin-top:2%;
-margin-bottom:2%;
+#contact-body-row{
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#contact-map-column{
+  text-align:center;
+  font-size:100%;
+  font-weight:bold;
+}
+
+#contact-form-column{
+  text-align:center;
+}
+
+#contact-form{
+  margin: 0 auto;
+  width:90%;
 }
 
 #contact-header{
@@ -287,7 +423,7 @@ margin-bottom:2%;
 }
 
 #contact-header-text{
-  border-left: 2px solid #F8D245;
+  border-left: 2px solid #F57002;
   padding-left:1%;
   color: black;
 }
