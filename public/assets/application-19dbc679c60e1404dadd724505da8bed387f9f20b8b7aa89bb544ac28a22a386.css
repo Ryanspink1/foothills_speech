@@ -1,0 +1,547 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ body {
+  /*position: relative;*/
+  /*margin:0px;
+  padding:0px;*/
+}
+
+nav{
+  box-shadow: 0px 0px 5px black;
+}
+
+#nav-phone-number{
+  /*align:right;*/
+  font-size:100%;
+  text-align:center;
+  /*display:inline-block;*/
+}
+
+#foot{
+  background-color: #0F4FA1;
+  color:white;
+  padding-bottom:1%;
+  padding-top:1%;
+
+  padding-right:0px;
+  margin-right:0px;
+  width:103vw;
+}
+
+#facebook-link{
+  padding-left:2.5%;
+  padding-right:2.5%;
+  padding-top:.5%;
+  padding-bottom:.5%;
+  border-radius: 7px 7px 7px 7px;
+  background-color:#0F2971;
+  width:auto;
+  display:inline-block;
+}
+
+#facebook-link:hover{
+  cursor: pointer;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -10vh;
+  visibility: hidden;
+}
+
+ul{
+line-height:400%;
+}
+
+li{
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:150%;
+}
+
+.mid-section{
+  background-color:#0F4FA1;
+  height:1px;
+  width:102vw;
+  margin-right:0px;
+  padding-right:0px;
+}
+
+#brand-image{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+#brand-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 180%;
+}
+
+
+#home-banner{
+  padding-top:28%;
+  padding-bottom:0px;
+  width:100%;
+}
+
+#jumbotron-text{
+margin-bottom:1%;
+}
+
+.jumbotron{
+  margin-right:0px;
+  padding-right:0px;
+  margin-top:3%;
+  margin-bottom:0px;
+  height:inherit;
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:300%;
+  color:white;
+  text-shadow: 1px 1px 8px black;
+  text-outline: 3px 2px black;
+  background-image: url("https://s3-us-west-1.amazonaws.com/foothills-assets/HomePhoto-min.jpg");
+  background-size: cover;
+
+}
+
+#about-us-row{
+  background: radial-gradient(white,#E8EAEC);
+  font-family: 'Raleway', sans-serif;
+}
+
+#about-us-column{
+  padding-right:0px;
+  margin-right:0px;
+  margin-bottom:2%;
+}
+
+#about-us-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+#about-us-header-text{
+  border-left: 2px solid #FFB338;
+  padding-left:1%;
+  /*margin-left:1%;*/
+
+}
+
+#about-us-photo{
+  /*text-align: center;*/
+  border-left: 5px solid #FFB338;
+  margin-top:2%;
+  margin-bottom: 4%;
+}
+#about-us-body{
+  height:inherit;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:5vh;
+  padding-left:2%;
+  padding-right:2%;
+  border-left: 2px solid #FFB338;
+}
+
+#about-us-body-text{
+  font-size:175%;
+}
+
+#therapy-header{
+  /*height:10vh;*/
+  text-align:left;
+  padding-left:5%;
+  margin-top:2vh;
+  font-size: 300%;
+  margin-bottom:2vh;
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  padding-top:2%;
+  padding-bottom:2%;
+
+}
+
+#therapy-header-text{
+    border-left: 2px solid red;
+    padding-left:1%;
+    margin-left:1%;
+}
+
+#therapy-body{
+  margin-left:2%;
+  margin-right:2%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-img-top{
+  /*height:55%;*/
+}
+
+.card-body{
+  background:black;
+  color:white;
+  border-style: none;
+  /*height:30vh !important;*/
+  height:15rem;
+
+}
+
+.card-text{
+  border-left: 2px solid red;
+  padding-left:2%;
+  margin-left:2%;
+  height:6rem;
+  overflow:scroll;
+}
+
+.card{
+  /*background:black;
+  color:white;*/
+  border-style: none;
+  width:30%;
+  display:inline-block;
+  margin-left:3%;
+  box-shadow: 3px 3px 7px #848f94;
+  /*height:inherit;*/
+}
+
+.learn-more-button{
+  border-radius: 2px 2px 2px 2px;
+  background:grey;
+  width:7rem;
+  text-align:center;
+  cursor:pointer;
+}
+.learn-more-button:hover{
+  color:black;
+  font-weight:bold;
+  background-color:red;
+}
+
+#therapy-row{
+  background: radial-gradient(white,#E8EAEC);
+  padding-bottom:4%;
+}
+
+#faq-row{
+  background: radial-gradient(white,#E8EAEC);
+  font-family: 'Raleway', sans-serif;
+  padding-top:2%;
+}
+#faq-column{
+  padding-right:0px;
+  margin-right:0px;
+  margin-bottom:4%;
+}
+
+#faq-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+  margin-bottom:2vh;
+  padding-bottom:2%;
+}
+#faq-header-text{
+  border-left: 2px solid #7F2DAC;
+  padding-left:1%;
+}
+
+.faq-dropdown{
+  width:55%;
+  margin: 0 auto;
+  margin-bottom:1%;
+}
+
+.faq-dropdown-header{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 7px 7px 7px 7px;
+  text-align: center;
+  font-size: 115%;
+  padding-left:2%;
+  padding-right:2%;
+  background-color:#0F4FA1;
+  color:white;
+  border-color: black;
+  cursor: pointer;
+}
+
+.faq-dropdown-header:hover{
+  box-shadow: 3px 3px 7px #848f94;
+  font-weight:bold;
+  background-color:white;
+  color:#0F4FA1;
+}
+
+.faq-dropdown-header.active{
+  border-radius: 7px 7px 0px 0px;
+  border-bottom:0px;
+}
+
+.faq-dropdown-body{
+  /*text-align: center;*/
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left:3%;
+  padding-right:2%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px 0px 7px 7px;
+  background-color:white;
+}
+
+.faq-dropdown-body.one{
+  text-align: center;
+}
+
+.faq-dropdown-body.six{
+  text-align: center;
+}
+
+.faq-dropdown-body.five{
+  text-align: center;
+}
+
+.faq-logo-photo{
+  display:block;
+  margin:auto;
+}
+
+#testimonials-row{
+  background: radial-gradient(white,#E8EAEC);
+  font-family: 'Raleway', sans-serif;
+}
+
+#testimonials-column{
+  padding-right:0px;
+  margin-right:0px;
+  margin-bottom:2%;
+}
+
+#testimonials-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+#testimonials-header-text{
+  border-left: 2px solid #47B99C;
+  padding-left:1%;
+}
+
+#testimonials-text-row{
+  padding-left:9%;
+  padding-right:3%;
+}
+
+.testimonial-text{
+  padding-left:2%;
+  border-left: 2px solid #47B99C;
+
+}
+
+#testimonials-body{
+  height:inherit;
+  /*margin-left:5%;*/
+  margin-right:5%;
+  margin-bottom:5vh;
+  /*padding-left:2%;
+  padding-right:2%;
+  border-left: 2px solid #FFB338;*/
+}
+
+#testimonials-body-text{
+  font-size:175%;
+}
+
+#contact-row{
+  font-family: 'Raleway', sans-serif;
+  background: radial-gradient(white,#E8EAEC);
+  /*padding-right:0vw;*/
+  padding-top:2%;
+  padding-bottom:4%;
+}
+
+.row{
+  width:103vw;
+}
+
+.contact-form-input{
+  margin-top:1%;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #C1C1C1;
+  text-align:center;
+  width:100%;
+  font-size:120%;
+}
+
+#contact-body-row{
+  margin-top:2%;
+  margin-bottom:2%;
+}
+
+#contact-map-column{
+  text-align:center;
+  font-size:100%;
+  font-weight:bold;
+}
+
+#contact-form-column{
+  text-align:center;
+}
+
+#contact-form{
+  margin: 0 auto;
+  width:90%;
+}
+
+#contact-header{
+  text-align:left;
+  margin-top:2vh;
+  padding-left:5%;
+  font-size: 300%;
+}
+
+#contact-header-text{
+  border-left: 2px solid #F57002;
+  padding-left:1%;
+  color: black;
+}
+
+#contact-form-select{
+  margin-top:1%;
+}
+
+#contact-form-submit{
+  display: block;
+  margin : 0 auto;
+}
+
+select{
+  text-align: center;
+  text-align-last: center;
+}
+
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0,0,0,0.5);*/
+    background: white;
+    opacity:.95;
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlay-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: 140%;
+    color: black;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    width:80%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.downArrow{
+	/*position: relative;*/
+	/*bottom: 45%;*/
+	left: 50%;
+  color:black;
+}
+.bounce {
+	-moz-animation: bounce 3.5s infinite;
+	-webkit-animation: bounce 3.5s infinite;
+	animation: bounce 3.5s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
